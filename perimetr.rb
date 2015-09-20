@@ -1,7 +1,7 @@
 puts "Введите сторону a прямоугольника"
-a = gets.chomp.to_i
+a = gets.chomp.to_f
 
 puts "Введите сторону b прямоугольника"
-b = gets.chomp.to_i
+b = gets.chomp.to_f
 
 puts "Периметр прямоугольника равен #{2*a + 2*b}"

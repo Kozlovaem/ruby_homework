@@ -1,7 +1,7 @@
 puts "Введите сторону a прямоугольника"
-a = gets.chomp.to_i
+a = gets.chomp.to_f
 
 puts "Введите сторону b прямоугольника"
-b = gets.chomp.to_i
+b = gets.chomp.to_f
 
 puts "Площадь прямоугольника равна #{a*b}"
